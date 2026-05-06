@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon backend/server.js"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/HashimMatloob/Product-App.git"
@@ -21,5 +22,8 @@
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "mongoose": "^9.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
